@@ -49,10 +49,10 @@ function Home() {
                     <button> Contact me <hr className=' text-light-green'/> </button>
                 </div>
                 <div className='grid  grid-cols-1 text-center md:text-left md:grid-cols-2 lg:grid-cols-2 gap-5  justify-between'>
-                    <Project projectImage={'/src/assets/profile.png'} projectName={"Portifolio"} languages={"HTML & CSS"} height={70}/>
-                    <Project projectImage={'/src/assets/eCommerce.png'} projectName={"E-Commerce Web App"} languages={"HTML, CSS, Tailwind.CSS, JavaScript & React.js"} height={70}/>
-                    <Project projectImage={'/src/assets/clock.png'} projectName={"Timer Web App"} languages={"HTML, SASS & React.js"} height={80}/>
-                    <Project projectImage={'/src/assets/game.png'} projectName={"Game Web App"} languages={"HTML, CSS JavaScript"} height={80}/>
+                    <Project projectImage={'./assets/profile.png'} projectName={"Portifolio"} languages={"HTML & CSS"} height={70}/>
+                    <Project projectImage={'./assets/eCommerce.png'} projectName={"E-Commerce Web App"} languages={"HTML, CSS, Tailwind.CSS, JavaScript & React.js"} height={70}/>
+                    <Project projectImage={'./assets/clock.png'} projectName={"Timer Web App"} languages={"HTML, SASS & React.js"} height={80}/>
+                    <Project projectImage={'./assets/game.png'} projectName={"Game Web App"} languages={"HTML, CSS JavaScript"} height={80}/>
                 </div>
             </main>
             
