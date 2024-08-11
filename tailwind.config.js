@@ -16,7 +16,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'ie-bg': "url('./assets/emma.jpg')",
+        'ie-bg': "url('/assets/emma.jpg')",
       }
     },
   },
