@@ -1,0 +1,42 @@
+[
+    
+    {
+        "language": "HTML",
+        "Experience": 2
+    },
+    {
+        "language": "CSS",
+        "Experience": 2
+    },
+    {
+        "language": "JavaScriptS",
+        "Experience": 2
+    },
+    {
+        "language": "React",
+        "Experience": 1
+    },
+    {
+        "language": "SASS",
+        "Experience": 1
+    },
+    {
+        "language": "BootStrap",
+        "Experience": 1
+    },
+    {
+        "language": "Next.JS",
+        "Experience": 1
+    },
+    {
+        "language": "TailwindCSS",
+        "Experience": 1
+    },
+    {
+        "language": "TypeScript",
+        "Experience": 1
+    }
+
+
+
+]

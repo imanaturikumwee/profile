@@ -3,6 +3,7 @@ import Skill from './Skill';
 import Project from './Project';
 import Footer from './Footer';
 import Link from './Link';
+import data from '../data.json'
 function Home() {
   return (
     <div className=' bg-dark-black h-fit w-full'>
@@ -35,14 +36,15 @@ function Home() {
             <main className=' my-8'>
                 <hr className=' text-white' />
                 <div className='grid  grid-cols-1 text-center md:text-left md:grid-cols-2 lg:grid-cols-3 justify-between'>
-                    <Skill skill={"HTML"} experience={2}/>
-                    <Skill skill={"CSS"} experience={2}/>
-                    <Skill skill={"JavaScript"} experience={2}/>
-                    <Skill skill={"React"} experience={1}/>
-                    <Skill skill={"SASS"} experience={1}/>
-                    <Skill skill={"Next.js"} experience={1}/>
-                    <Skill skill={"Bootstrap"} experience={1}/>
-                    <Skill skill={"TailwindCss"} experience={1}/>
+                    {
+                        data.map((skill, index)=>{
+                            return (
+                                <div key={index}>
+                                    <Skill skill={skill.language} experience={skill.Experience} />
+                                </div>
+                            )
+                        })
+                    }
                 </div>
                 <div className=' flex justify-between text-white my-[3rem]'>
                     <h1 className='text-[40px] leading-[40px] font-bold tracking-[-1.14px]'>Projects</h1>
