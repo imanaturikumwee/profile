@@ -12,7 +12,7 @@ function Home() {
                 <span>EMMANUEL </span>
                 </div>
                 <div className=''>
-                    <nav className=' bg-ie-bg bg-cover h-[720px] bg-[65%] p-4 md:p-8 rounded-md mx-[4rem] md:mx-[0] md:w-[350px] md:h-[720px] lg:w-[445px] lg:h-[600px] flex md:justify-end'>
+                    <nav className=' bg-ie-bg bg-cover h-[720px] bg-[65%] p-4 md:p-8 rounded-md justify-center md:mx-[0] md:w-[350px] md:h-[720px] lg:w-[445px] lg:h-[600px] flex md:justify-end'>
                         <Link/>
                     </nav>
                     <div className='text-white md:absolute md:top-[100px] md:left-[6rem] md:w-[30%] lg:w-[50%] text-center md:text-left '>
