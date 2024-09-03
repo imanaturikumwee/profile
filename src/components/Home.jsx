@@ -18,7 +18,7 @@ function Home() {
                     </nav>
                     <div className='text-white md:absolute md:top-[100px] md:left-[6rem] md:w-[30%] lg:w-[50%] text-center md:text-left '>
                         <p className='md:text-[56px] text-[40px] leading-[40px] md:leading-[72px] font-bold md:tracking-[-2.5px] tracking-[-1.14px] my-6'>
-                            Hi there! I'm <span className=' underline decoration-light-green'>Emmanuel Imanaturikumwe</span>,
+                            Hi there! I'm <a href="https://www.linkedin.com/in/emmanuelimanaturikumwe/" target="_blank" rel="noopener noreferrer"><span className=' underline decoration-light-green'>Emmanuel Imanaturikumwe</span></a>,
                         </p>
                         <p className='text-[16px] font-normal leading-[26px] mt-[80px]'>
                         I am an enthusiastic front-end developer with a passion for creating immersive and 
@@ -26,7 +26,9 @@ function Home() {
                         coding and design into impactful web solutions.
                         </p>
                         <div className='mt-[50px]'>
-                        <button> Contact me <hr className=' text-light-green'/> </button>
+                            <button>
+                            <a href="https://x.com/ie_togetha" target="_blank" rel="noopener noreferrer" className=' w-4'>Contact me <hr className=' text-light-green'/></a>
+                            </button>
                         
                         </div>
                         

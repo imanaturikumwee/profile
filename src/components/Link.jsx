@@ -8,10 +8,10 @@ import { BsTwitterX } from "react-icons/bs";
 function Link() {
   return (
     <div className=' flex justify-between gap-[1rem] md:justify-end mb-[3rem] w-[30%]' >
-        <a href="http://" target="_blank" rel="noopener noreferrer"><VscGithub size={15}  /></a>
+        <a href="https://github.com/imanaturikumwee" target="_blank" rel="noopener noreferrer"><VscGithub size={15}  /></a>
         <a href="http://" target="_blank" rel="noopener noreferrer"><SiFrontendmentor size={15} /></a>
-        <a href="http://" target="_blank" rel="noopener noreferrer"> <FaLinkedin size={15} /></a>
-        <a href="http://" target="_blank" rel="noopener noreferrer"> <BsTwitterX size={15} /></a>
+        <a href="https://www.linkedin.com/in/emmanuelimanaturikumwe/" target="_blank" rel="noopener noreferrer"> <FaLinkedin size={15} /></a>
+        <a href="https://x.com/ie_togetha" target="_blank" rel="noopener noreferrer"> <BsTwitterX size={15} /></a>
         
     </div>
 )
